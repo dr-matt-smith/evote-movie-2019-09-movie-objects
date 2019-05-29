@@ -27,7 +27,7 @@ The project has been refactored as follows:
           ... getters/setters for all properties
     ```
 
-- the constructor method fo class `/src/MovieRepository.php` is refacted to create 3 `Movie` objects and store them in private array property `$this->movies`:
+- the constructor method of class `/src/MovieRepository.php` is refacted to create 3 `Movie` objects and store them in private array property `$this->movies`:
 
     ```php
           public function __construct()
